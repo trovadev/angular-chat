@@ -1,0 +1,14 @@
+version: '2.2'
+
+services:
+    angular-chat:
+        build: .
+        container_name: angular-chat
+        restart: unless-stopped
+        volumes:
+            - '.:/app'
+        ports:
+            - "4200:4200"
+        # https://stackoverflow.com/questions/38546755/docker-compose-keep-container-running
+        command: tail -f /dev/null
+
