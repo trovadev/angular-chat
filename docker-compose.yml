@@ -1,9 +1,9 @@
 version: '2.2'
 
 services:
-    angular-chat:
+    trovadev-angular-chat:
         build: .
-        container_name: angular-chat
+        container_name: trovadev-angular-chat
         restart: unless-stopped
         volumes:
             - '.:/app'

@@ -4,7 +4,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 - ``ng serve`` dentro do projeto levanta o servidor em `http://localhost:4200`
-### Docker
 
 ## Code scaffolding
 
